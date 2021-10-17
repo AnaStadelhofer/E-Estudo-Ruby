@@ -2,8 +2,7 @@ puts 'Hello World! Seja bem-vindo ao meu primeiro programa Ruby!'
 puts 'Meu nome é: '
 nome = gets
 puts "Meu nome é #{nome}"
-sobrenome = 'Carolina'
-sobrenome2 = 'Stadelhofer'
+sobrenome = ' Sobrenome'
 puts 'Olá ' + nome + sobrenome + sobrenome2
 puts 'Tipos de variaveis, integer, float, boolean, string'
 
