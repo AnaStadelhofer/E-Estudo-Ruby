@@ -31,3 +31,15 @@ puts "O número 2 é menor ou igual que num: #{2 <= num.to_i}"
 puts "O número 2 é igual que num: #{2 == num.to_i}"
 
 puts "O número 2 é diferente que num: #{2 != num.to_i}"
+
+# Operadores por if
+
+puts 'Informe um número'
+
+numInformado = gets.to_i
+
+if numInformado == 1 
+    puts 'Número é igual um'
+else 
+    puts 'Número é diferente de um'
+end
