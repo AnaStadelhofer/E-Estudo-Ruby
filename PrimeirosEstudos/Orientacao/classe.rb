@@ -31,7 +31,7 @@ class ClassName
     #nome de metodo todo minusco e se for composto ter _
 
     def metodo
-        puts 'Metodo imprido'
+        puts 'Metodo imprimido'
     end
 
     objeto.metodo
