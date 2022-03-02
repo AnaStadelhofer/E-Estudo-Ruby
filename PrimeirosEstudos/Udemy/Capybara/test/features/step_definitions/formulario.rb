@@ -9,7 +9,8 @@ Quando('o usuário acessar o registros do formulário') do
     find('#menu_item_small_40').click
     find(class: 'icon-three-files').click
     sleep(5)
-    find(class: 'pull-left').check
+    first('.caret').click
+    
 end
 
 Então('ele pode criar novos registros') do
