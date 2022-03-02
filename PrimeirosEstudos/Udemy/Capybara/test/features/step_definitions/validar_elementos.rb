@@ -16,6 +16,5 @@ Então('ele verifica se está na conta certa') do
     page.has_text?('Ana Stadelhofer')
     have_text('Ana Stadelhofer')
     sleep(2)
-
     has_no_text?('banana')
 end
