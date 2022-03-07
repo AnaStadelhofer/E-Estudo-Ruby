@@ -1,6 +1,9 @@
 ---
 
-default: --profile pretty -p homolog
+default: --profile pretty -p homolog -p html
 
 pretty: --format pretty
 homolog: AMBIENTE=homolog
+html: --format html --out=report/relatorio.html
+chrome: BROWSER=chrome
+chrome_headless: BROWSER=chrome_headless

@@ -2,13 +2,14 @@ class CriarUsuarioPage < SitePrism::Page
     set_url 'users/new'
 
     element :nome, '#user_name'
-    element :sobrenome, '#last_name'
+    element :sobrenome, '#user_lastname'
     element :email, '#user_email'
     element :endereco, '#user_address'
     element :universidade, '#user_university'
     element :profissao, '#user_profile'
     element :genero, '#user_gender'
     element :idade, '#user_age'
+    element :button, 'input[value="Criar"]'
 
     def preencher_nome(nome_user)
         nome.set nome_user
@@ -40,5 +41,9 @@ class CriarUsuarioPage < SitePrism::Page
 
     def preencher_idade(idade_user)
         idade.set idade_user
+    end
+
+    def clicar_butao
+        button.click
     end
 end

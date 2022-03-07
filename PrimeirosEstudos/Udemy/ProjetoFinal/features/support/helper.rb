@@ -5,7 +5,7 @@ module Helper
         caminho = "report/screenchots/teste_#{resultado}"
         foto = "#{caminho}/#{nome_arquivo}.png"
         page.save_screenshot(foto)
-
+        # embed(foto, 'image/png', 'Click')
     end 
 
 end
